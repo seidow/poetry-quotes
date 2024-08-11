@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+    background-image: url("../src/images/architecture.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width:100%; 
+    height: 100%;
+    font-family: "Fustat", sans-serif;
+  }
+
+  header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    font-family: "Noto Kufi Arabic", sans-serif;
+    background-color: rgb(34, 34, 34);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  }
+
+  header h1{
+    margin: 10px;
+    text-align: center;
+    color: #fff;
+  }
+
+  .post{
+    /* margin: 10% auto 70px auto; */
+    padding: 50px;
+    border-radius: 4px;
+    position: relative;
+    background-image: url('./images/old-paper.png');
+    background-size: cover;
+    box-shadow: 0 0 10px 5px rgba(0,0,0,0.3);
+      
+    /* box-shadow: 0 0 8px 8px white inset; */
+    
+  }
+
+
+  .post h1{
+    color: rgb(14, 1, 71);
+  }
+
+  .post h2{
+    color: #fff;
+    width: fit-content;
+    padding: 5px 20px;
+    border-radius: 10px;
+    position: absolute;
+    position: absolute;
+    bottom: -5px;
+    left: -2px;
+    
+  }
+
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(34, 34, 34);
+    
+}
+
+button{
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  outline: none;
+  color: #ACC8E5;
+}
+
+button:hover, button:active{
+  background-color: #ff7905;
+}
+
+footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+footer p {
+  background-color: #FF9C33;
+  color: #000;
+}
