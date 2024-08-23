@@ -21,7 +21,15 @@ export default {
       '2xl': '1536px',
       // => @media (min-width: 1536px) { ... }
     },
-    extend: { fontFamily:{"Fustat": ['Fustat', 'sans-serif']}},
+    extend: {
+      fontFamily: {
+        "Fustat": ['Fustat', 'sans-serif'],
+        "Kufi": ['Noto Kufi Arabic', 'sans-serif']
+      },
+      backgroundImage: {
+        "main-bg": "url(./src/images/wall-background.jpg)"
+      }
+    },
   },
   plugins: [],
 }
