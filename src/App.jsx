@@ -47,7 +47,7 @@ function App() {
       {/* Header */}
       <header className="flex items-center justify-center py-4 px-6 bg-gray-900">
         <img className="w-16 md:w-24 lg:w-32 invert mr-4" src={logo} alt="logo" />
-        <h1 className="font-Kufi text-3xl md:text-4xl lg:text-5xl text-white">
+        <h1 className="font-Kufi text-2xl md:text-4xl lg:text-5xl text-white">
           اقتباسات من الأدب العربي
         </h1>
       </header>
