@@ -57,7 +57,7 @@ function App() {
       </header>
 
       {/* Main Content */}
-      <main className="flex-grow flex flex-col items-center justify-start mt-48 lg:64">
+      <main className="flex-grow flex flex-col items-center justify-start mt-32 lg:mt-64">
         <div className="relative flex flex-col items-center justify-center w-11/12 md:w-2/3 lg:w-1/2 bg-gradient-to-r from-gray-700 via-gray-800 to-gray-900 text-white rounded-lg p-8 shadow-lg">
           <div className="text-2xl md:text-4xl lg:text-5xl mb-4 text-center leading-relaxed">
             <h1 className="leading-loose quote-text">{currentPoetry.text1}</h1>
@@ -90,7 +90,7 @@ function App() {
           )}
         </div>
         {/* Share Section */}
-        <div className="mt-32 lg:mt-16 flex justify-center">
+        <div className="mt-16 flex justify-center">
           <div className="flex space-x-8 p-4 bg-gray-900 text-white rounded-lg border border-gray-700 shadow-lg">
             <ShareIcon className="text-white" />
             <FacebookShareButton
